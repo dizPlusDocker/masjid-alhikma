@@ -1,0 +1,75 @@
+name: com_alhikma_moschee
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  scrollable_positioned_list: ^0.2.3
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.15
+  animated_splash_screen: ^1.3.0
+  flutter_alarm_clock: ^0.1.1
+  permission_handler: ^11.0.1
+  shared_preferences: ^2.0.13
+  flutter_screenutil: ^5.7.0
+  adhan: ^2.0.0-nullsafety.2
+  percent_indicator: ^4.2.3
+  flutter_slidable: ^3.0.0
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.9
+  flutter_compass: ^0.7.0
+  flutter_qiblah: ^2.2.0
+  url_launcher: ^6.1.6
+  restart_app: ^1.1.2
+  share_plus: ^4.0.3
+  geolocator: ^9.0.2
+  location: ^5.0.3
+  sqflite: ^2.2.7
+  lottie: ^2.6.0
+  http: ^0.13.3
+  quran: ^1.2.2
+  hijri: ^3.0.0
+  intl: ^0.18.1
+  get: ^4.6.5
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon_launcher.png"
+
+flutter_lints: ^2.0.0
+
+flutter:
+
+uses-material-design: true
+
+assets:
+  - assets/
+  - assets/images/
+  - assets/fonts/
+  - assets/jsons/
+fonts:
+  - family: Moushaf
+    fonts:
+      - asset: assets/fonts/moushaf/moushaf.ttf
+  - family: English
+    fonts:
+      - asset: assets/fonts/english/english.ttf
+  - family: Arabic
+    fonts:
+      - asset: assets/fonts/arabic/arabic.ttf
+  - family: Number
+    fonts:
+    - asset: assets/fonts/number/number.ttf
+    - family: Sura
